@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Image URL Cleaner
 // @namespace    http://tampermonkey.net/
-// @version      1.0
+// @version      1.2
 // @description  Автоматично відкриває повнорозмірні зображення, прибираючи -числоxчисло з URL.
 // @author       Your Name
 // @match        *://*/*
