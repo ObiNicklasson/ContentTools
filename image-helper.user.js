@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name         Іmage-Рelper (Main)
+// @name         Іmage-Helper (Main)
 // @namespace    http://tampermonkey.net/
 // @version      1.1
 // @description  Головний скрипт
