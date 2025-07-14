@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Іmage-Helper (Main)
 // @namespace    http://tampermonkey.net/
-// @version      1.1
+// @version      1.0.0
 // @description  Головний скрипт
 // @author       Микола Б.
 // @match        *://*/*
