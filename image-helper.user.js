@@ -1,18 +1,16 @@
 // ==UserScript==
-// @name         Image URL Cleaner
+// @name         Іmage-Рelper (Main)
 // @namespace    http://tampermonkey.net/
-// @version      1.2
-// @description  Автоматично відкриває повнорозмірні зображення, прибираючи -числоxчисло з URL.
-// @author       Your Name
+// @version      1.0
+// @description  Головний скрипт
+// @author       Микола Б.
 // @match        *://*/*
-// @icon         https://example.com/icon.png
+// @require      https://raw.githubusercontent.com/ObiNicklasson/ContentTools/main/lagguitars.js
+// @require      https://raw.githubusercontent.com/ObiNicklasson/ContentTools/main/cherryxtrfy.js
 // @grant        none
 // ==/UserScript==
 
 (function() {
     'use strict';
-    const regex = /-\d+x\d+(?=\.\w{3,4}$)/;
-    if (regex.test(location.href)) {
-        location.href = location.href.replace(regex, "");
-    }
+    // Можна додати спільні функції або лог тут
 })();
