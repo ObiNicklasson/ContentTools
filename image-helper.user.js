@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name         Іmage-Helper (Main)
+// @name         Іmage-Helper
 // @namespace    http://tampermonkey.net/
 // @version      1.0.0
 // @description  Головний скрипт для відкриття фото у високій якості на потрібних сайтах
