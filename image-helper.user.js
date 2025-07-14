@@ -24,4 +24,9 @@
         }
     }
 
+    // ===== Rozetka =====
+    if (location.hostname.includes("rozetka.com.ua") && /goods\/images\/big/.test(location.href)) {
+    location.href = location.href.replace("big", "original");
+    }  
+
 })();
