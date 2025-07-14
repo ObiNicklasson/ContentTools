@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Іmage-Рelper (Main)
 // @namespace    http://tampermonkey.net/
-// @version      1.0.1
+// @version      1.1
 // @description  Головний скрипт
 // @author       Микола Б.
 // @match        *://*/*
