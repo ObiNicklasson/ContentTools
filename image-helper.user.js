@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Іmage-Helper
 // @namespace    http://tampermonkey.net/
-// @version      1.1
+// @version      1.2
 // @description  Скрипт для відкриття фото у високій якості
 // @author       Микола Б.
 
@@ -9,6 +9,8 @@
 // @match        https://cherryxtrfy.com/wp/wp-content/uploads/*
 // @match        https://*.rozetka.com.ua/goods/images/big/*
 // @match        https://cdn0.it4profit.com/*
+// @match        https://www.keychron.com/cdn/*
+// @match        https://cdn.shopify.com/s/*
 
 // @updateURL    https://raw.githubusercontent.com/ObiNicklasson/ContentTools/main/image-helper.user.js
 // @downloadURL  https://raw.githubusercontent.com/ObiNicklasson/ContentTools/main/image-helper.user.js
@@ -48,6 +50,16 @@
         /h:\d+\/rt:fill\/w:\d+\//.test(location.href)
     ) {
         location.href = location.href.replace(/h:\d+\/rt:fill\/w:\d+\//, "");
+    }
+
+    // ===== keychron =====
+        if (
+        (location.hostname === "www.keychron.com" && location.pathname.startsWith("/cdn/")) ||
+        (location.hostname === "cdn.shopify.com" && location.pathname.startsWith("/s/"))
+    ) {
+        if (location.search !== "") {
+            location.href = location.href.replace(location.search, "");
+        }
     }
 
 })();
