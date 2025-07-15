@@ -1,10 +1,10 @@
 // ==UserScript==
 // @name         Іmage-Helper
 // @namespace    http://tampermonkey.net/
-// @version      1.0.0
+// @version      1.0.1
 // @description  Головний скрипт для відкриття фото у високій якості на потрібних сайтах
 // @author       Микола Б.
-// @match        https://lagguitars.com/*small*
+// @match        https://*.lagguitars.com/*small*
 // @match        https://cherryxtrfy.com/wp/wp-content/uploads/*
 // @match        https://*.rozetka.com.ua/goods/images/big/*
 // @grant        none
