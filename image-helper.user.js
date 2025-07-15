@@ -1,12 +1,16 @@
 // ==UserScript==
 // @name         Іmage-Helper
 // @namespace    http://tampermonkey.net/
-// @version      1.0.1
+// @version      1.0.2
 // @description  Головний скрипт для відкриття фото у високій якості на потрібних сайтах
 // @author       Микола Б.
+
 // @match        https://*.lagguitars.com/*small*
 // @match        https://cherryxtrfy.com/wp/wp-content/uploads/*
 // @match        https://*.rozetka.com.ua/goods/images/big/*
+
+// @updateURL    https://github.com/ObiNicklasson/ContentTools/blob/main/image-helper.user.js
+// @downloadURL  https://github.com/ObiNicklasson/ContentTools/blob/main/image-helper.user.js
 // @grant        none
 // ==/UserScript==
 
