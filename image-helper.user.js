@@ -14,7 +14,10 @@
     'use strict';
 
     // ===== lagguitars =====
-    if (location.hostname.includes("lagguitars.com")) {
+    if (
+        location.hostname.includes("lagguitars.com") &&
+        location.href.includes("small")
+    ) {
         location.href = location.href.replace("small", "large");
     }
 
